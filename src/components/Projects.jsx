@@ -1,54 +1,61 @@
 import React from 'react';
 import { Folder, Link } from 'lucide-react';
+import bank from '../assets/bank.png';
+import future from '../assets/futurevault.png';
+import ipl from '../assets/ipldashboard.png';
+import marvel from '../assets/marveldashboard.png';
+import product from '../assets/productmanage.png';
+import rest from '../assets/restapi.png';
+import stream from '../assets/streaming.png';
 
 const Projects = () => {
   const projects = [
     {
       title: 'Future Vault',
       description: 'Developed a Virtual Time Capsule using React.js and Spring Boot, enabling users to create and share secure digital capsules with memorable text, unlockable under specific conditions.',
-      image: '/projectimg/futurevault.png',
+      image: future,
       tags: ['React','Java', 'Spring Boot', 'Spring Security', 'RESTful API'],
       githubLink: 'https://github.com/Sudharshannellore/Future_Vault-Time-Capsule-.git',
     },
     {
       title: 'Marvel Dashboard',
       description: 'Analyzed Marvel Cinematic Universe data to uncover insights on Budget vs. Gross, yearly revenue trends, opening weekend performance, and audience vs. critics scores. Highlighted success factors, enhancing Tableau skills and data storytelling in entertainment analytics.',
-      image: '/projectimg/marveldashboard.png',
+      image: marvel,
       tags: ['Excel', 'Tableau'],
       githubLink: 'https://public.tableau.com/app/profile/sudharshan.rao.nellore/viz/shared/25JF9BBPR',
     },
     {
-      title: 'Excel Dashboard',
+      title: 'IPL Dashboard',
       description: 'Developed an IPL (2008-2024) Performance Dashboard in Excel, analyzing season winners, top players, match outcomes, and key statistics using excel.',
-      image: '/projectimg/ipldashboard.png',
+      image: ipl,
       tags: ['Excel'],
       githubLink: 'https://onedrive.live.com/edit?id=5AFFDF819F91A575!sb3640c9967bb4829b23609866615d1f2&resid=5AFFDF819F91A575!sb3640c9967bb4829b23609866615d1f2&cid=5affdf819f91a575&ithint=file%2cxlsx&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy81YWZmZGY4MTlmOTFhNTc1L0Vaa01aTE83WnlsSXNqWUpobVlWMGZJQm4xTEhDMlhDX3FDUk5MQ01Ba25JVXc_ZT1mTWI1M0M&migratedtospo=true&wdo=2',
     },
     {
       title: 'Library Management',
       description: 'Developed a modular, scalable Library Management System using Java and Spring Boot, showcasing expertise in microservices architecture for independent deployment and seamless future enhancements',
-      image: '/projectimg/restapi.png',
+      image: rest,
       tags: ['Java','Spring Boot','Microservices','RESTful APIs'],
       githubLink: 'https://github.com/Sudharshannellore/Library-Management.git',
     },
     {
       title: 'Online Streaming Platform',
       description: 'Developed a movie streaming platform using React.js, leading to a 50% increase in user satisfaction, a 30% boost in retention through responsive design, a 40% enhancement in security, and a 20% improvement in load times.',
-      image: '/projectimg/streaming.png',
+      image: stream,
       tags: ['React'],
       githubLink: 'https://github.com/Sudharshannellore/cinema',
     },
     {
       title: 'Online Banking Application',
       description: 'The project involves developing an online banking application for business banks, offering account management, secure login, transaction handling, and account closure, ensuring a comprehensive and secure banking experience for clients',
-      image: '/projectimg/bank.png',
+      image: bank,
       tags: ['Java', 'Spring Boot', 'JSP', 'JavaScript'],
       githubLink: 'https://github.com/Sudharshannellore/BusinessBank',
     },
     {
       title: 'Product Management Application',
       description: 'A Product Management application, performing basic CRUD operations and generating responses',
-      image: '/projectimg/productmanage.png',
+      image: product,
       tags: ['Java', 'Servlets', 'JSP', 'JDBC', 'HTML5', 'CSS3', 'Javascript'],
       githubLink: 'https://github.com/Sudharshannellore/ProductManagement',
     },
