@@ -22,7 +22,7 @@ const Home = () => {
               View My Work
               <ArrowRight size={20} />
             </a>
-                <a href="https://drive.google.com/file/d/17gDYFp59qpcraXPxOcHGl0trnXfMuxe4/view?usp=drive_link" className="inline-flex items-center gap-2 px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
+                <a href="https://drive.google.com/file/d/17gDYFp59qpcraXPxOcHGl0trnXfMuxe4/view?usp=drive_link" target='_blank' className="inline-flex items-center gap-2 px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
                     Download Resume
                 </a>
           </div>
