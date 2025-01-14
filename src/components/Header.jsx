@@ -42,17 +42,6 @@ function Header() {
           <a href="#certifications" className="hover:text-gray-300 transition">Certifications</a>
           <a href="#services" className="hover:text-gray-300 transition">Services</a>
           <a href="#contact" className="hover:text-gray-300 transition">Contact</a>
-              <div className="flex gap-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                  <Github className="hover:text-gray-300 transition" size={20} />
-                </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="hover:text-gray-300 transition" size={20} />
-                </a>
-                <a href="mailto:your.email@example.com">
-                  <Mail className="hover:text-gray-300 transition" size={20} />
-                </a>
-              </div>
             </div>
           </nav>
         )}

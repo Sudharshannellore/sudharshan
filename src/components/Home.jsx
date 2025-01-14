@@ -31,7 +31,7 @@ const Home = () => {
               <a href="https://github.com/Sudharshannellore" target="_blank" rel="noopener noreferrer">
                 <Github className="text-white hover:text-gray-400 transition" size={25} />
               </a>
-              <a  href="https://www.linkedin.com/in/sudharshan-rao-nellore-2712ba199/" target="_blank" rel="noopener noreferrer">
+              <a  href="https://www.linkedin.com/in/sudharshannellore/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="text-white hover:text-gray-400 transition" size={25} />
               </a>
               <a href="mailto:sudharshannellore@gmail.com">
