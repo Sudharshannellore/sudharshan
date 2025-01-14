@@ -45,7 +45,7 @@ emailjs.send(serviceID,templateId, templateParams,publicKey)
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Mail className="text-gray-400" size={20} />
-                <span>sudharshannellore@example.com</span>
+                <span>sudharshannellore@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="text-gray-400" size={20} />
