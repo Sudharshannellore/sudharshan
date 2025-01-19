@@ -12,8 +12,7 @@ const Home = () => {
             Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Sudharshan Rao Nellore</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-400 mb-8">
-          Versatile Full Stack Developer | Proficient in Frontend & Backend Development | Ready to Build Seamless Digital Solutions
-          </p>
+          Versatile Full Stack Developer | Proficient in Frontend & Backend Development | Technology Enthusiast | Continuous Learner          </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a 
               href="#projects"
