@@ -38,17 +38,12 @@ const Home = () => {
             </a>
             </div>
             <div className='relative'>
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-white rounded-full flex items-center justify-center animate-bounce">
+            <div className="absolute -top-5 -bottom-2 -right-4 w-24 h-24 bg-white rounded-full flex items-center justify-center animate-bounce">
                         <a href="#contact">
                         <span className="text-black font-bold cursor-pointer">Hire Me!</span>
                         </a>
               </div>
             </div>
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <a href="#education" className="text-white hover:text-gray-400 transition">
-            <ChevronDown size={32} />
-          </a>
-        </div>
       </div>
     </section>
   );
