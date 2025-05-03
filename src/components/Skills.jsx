@@ -10,10 +10,8 @@ const Skills = () => {
         { name: 'React', level: 88 },
         { name: 'JavaScript', level: 85 },
         { name: 'Tailwind CSS', level: 88 },
-        { name: 'Bootstrap', level: 85 },
         { name: 'CSS3', level: 95 },
         { name: 'HTML5', level: 95 },
-        { name: 'Visual Studio Code', level: 90 },
       ],
     },
     {
@@ -23,9 +21,9 @@ const Skills = () => {
         { name: 'Java', level: 95 },
         { name: 'Spring Boot', level: 88 },
         { name: 'Hibernate', level: 80 },
-        { name: 'Spring', level: 80 },
         { name: 'RESTful APIs', level: 88 },
-        { name: 'J2EE', level: 88 },
+        { name: 'Node.js (express.js)', level: 88 },
+        { name: 'MongoDB', level: 88 },
         { name: 'MySQL', level: 80 },
       ],
     },
@@ -43,14 +41,15 @@ const Skills = () => {
       ],
     },
     {
-        title: 'Others',
+        title: 'Concepts',
         icon: <Globe className="w-8 h-8" />,
         skills: [
-          { name: 'OOPs', level: 88 },
+          { name: 'Object-Oriented Programming', level: 88 },
           { name: 'Microservices Architecture', level: 85 },
           { name: 'MVC Architecture', level: 88 },
-          { name: 'Communication', level: 95 },
-          { name: 'Problem Solving', level: 95 }
+          { name: 'Agile Development', level: 88 },
+          { name: 'Security (JWT, OAuth)', level: 88 },
+          { name: 'Test-Driven Development ', level: 88 },
         ],
       },
   ];

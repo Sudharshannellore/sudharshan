@@ -36,7 +36,7 @@ emailjs.send(serviceID,templateId, templateParams,publicKey)
 
 
   return (
-    <section id="contact" className="min-h-screen bg-black text-white py-20">
+    <section id="contact" className="min-h-screen bg-black text-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Get In Touch</h2>
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">

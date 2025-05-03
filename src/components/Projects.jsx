@@ -7,9 +7,17 @@ import marvel from '../assets/marveldashboard.png';
 import product from '../assets/productmanage.png';
 import rest from '../assets/restapi.png';
 import stream from '../assets/streaming.png';
+import localbazaar from '../assets/localbazaar.png'
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'Local Bazaar',
+      description: ' It is an eCommerce platform that connects consumers with local farmers, tribal artisans, and small businesses, similar to how Swiggy or Zomato connect users with restaurants — but with a focus on local, organic, and traditional products.',
+      image: localbazaar,
+      tags: ['React', 'Tailwind CSS', 'Node.js (express.js)', 'MongoDB', 'Jest', 'Socket io'],
+      githubLink: 'https://github.com/Sudharshannellore/LocalBazaar.git',
+    },
     {
       title: 'Future Vault',
       description: 'Developed a Virtual Time Capsule using React.js and Spring Boot, enabling users to create and share secure digital capsules with memorable text, unlockable under specific conditions.',
